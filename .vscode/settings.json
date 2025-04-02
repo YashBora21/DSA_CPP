@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "iostream": "cpp",
+        "*.tcc": "cpp",
+        "queue": "cpp",
+        "random": "cpp",
+        "algorithm": "cpp",
+        "vector": "cpp",
+        "xstring": "cpp",
+        "xutility": "cpp",
+        "stack": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "disabled",
+    "workbench.editor.doubleClickTabToToggleEditorGroupSizes": "expand",
+    "workbench.editor.enablePreviewFromQuickOpen": false
+}

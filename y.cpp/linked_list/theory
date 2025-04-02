@@ -1,0 +1,5 @@
+link list= it is a linear data structures that is collectionsof
+nodes
+it type of dynamic data structuresthat can drow and shrink at runtime
+insertion and deletion is easiy as no shift needed
+for insertioncreate a temp node which point to head node and then change the head
