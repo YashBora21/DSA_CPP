@@ -16,6 +16,7 @@ void count1(int n){
 int main(){
     int n;
     cin>>n;
+    
     count(n);
       count1(n);
 }
