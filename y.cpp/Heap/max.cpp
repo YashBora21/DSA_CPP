@@ -1,4 +1,5 @@
 #include<iostream>
+#include<queue>
 using namespace std;
 
 class heap{
@@ -64,6 +65,7 @@ void heapify(int arr[],int n,int i){
         heapify(arr,n,largest);
     }
 }
+
 int main(){
     heap h;
     h.insert(60);
@@ -89,7 +91,30 @@ int main(){
         cout<<arr[i]<<" ";
 
     }cout<<endl;
-
+    cout<<"priority queue here"<<endl;
+    //max heap
+    priority_queue<int>pq;
+    pq.push(4);
+    pq.push(5);
+    pq.push(3);
+    pq.push(2);
+    pq.push(1);
+    cout<<"element on top :"<<pq.top()<<endl;
+    cout<<"element on size :"<<pq.size()<<endl;
+    pq.pop();
+    cout<<"Is empty  :"<<pq.empty()<<endl;
+    //min heap
+    priority_queue<int,vector<int>,greater<int>>minpq;
+    minpq.push(4);
+    minpq.push(5);
+    minpq.push(3);
+    minpq.push(2);
+    minpq.push(1);
+ cout<<"element on top :"<<minpq.top()<<endl;
+    cout<<"element on size :"<<minpq.size()<<endl;
+    minpq.pop();
+    cout<<"Is empty  :"<<minpq.empty()<<endl;
+    
 
 
 }
