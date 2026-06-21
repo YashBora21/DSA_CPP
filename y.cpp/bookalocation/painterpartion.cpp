@@ -1,0 +1,4 @@
+/*
+ same as book alocation
+ partion of boards such that time req minmum 
+*/
